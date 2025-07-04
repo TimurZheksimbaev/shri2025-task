@@ -1,28 +1,26 @@
 import React from 'react';
 
-function Footer() {
+export function Footer() {
     return (
-        <footer className="footer">
-            <ul className="footer__list">
-                <li className="footer__item">
-                    <a className="footer__link" href="/">Помощь</a>
+        <footer class="footer">
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="/">Помощь</a>
                 </li>
-                <li className="footer__item">
-                    <a className="footer__link" href="/">Обратная связь</a>
+                <li class="footer__item">
+                    <a class="footer__link" href="/">Обратная связь</a>
                 </li>
-                <li className="footer__item">
-                    <a className="footer__link" href="/">Разработчикам</a>
+                <li class="footer__item">
+                    <a class="footer__link" href="/">Разработчикам</a>
                 </li>
-                <li className="footer__item">
-                    <a className="footer__link" href="/">Условия использования</a>
+                <li class="footer__item">
+                    <a class="footer__link" href="/">Условия использования</a>
                 </li>
             </ul>
 
-            <div className="footer__copyright">
+            <div class="footer__copyright">
                 © 1997–2023 ООО «Яндекс»
             </div>
         </footer>
     );
 }
-
-export default Footer; 
